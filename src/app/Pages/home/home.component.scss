@@ -1,0 +1,36 @@
+#logo {
+    width: 50%;
+    transition: 0.5s;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar{
+    transition: 0.5s;
+    position: fixed;
+    z-index: 10;
+    top:0px;
+
+    padding: 80px 10px;
+}
+
+.main{
+    position: relative;
+    top: 150px;
+}
+
+.main mat-card{
+    margin: 20px;
+}
+
+.footer{
+    bottom: 0px; 
+    //position: absolute;
+    position: fixed;
+}
+
+.footer span{
+    font-size: small;
+}
