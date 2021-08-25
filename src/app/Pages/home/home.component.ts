@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
         document.getElementById("navbar").style.padding = "80px 10px";
 
         let logo = document.getElementById("logo").style;
-        logo.width = "50%";
+        logo.width = "300px";
         // logo.marginLeft = "auto";
         // logo.marginRight = "auto";
       }  

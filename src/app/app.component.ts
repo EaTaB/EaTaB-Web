@@ -22,6 +22,11 @@ export class AppComponent {
     );
 
     this.matIconRegistry.addSvgIcon(
+      "eatab-favicon",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/eatab-favicon.svg")
+    );
+
+    this.matIconRegistry.addSvgIcon(
       "github",
       this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/github.svg")
     );
